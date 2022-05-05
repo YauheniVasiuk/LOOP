@@ -53,9 +53,19 @@
                <div class="header_logo">
                   <a href="#"><span class="ico_logo"><span class="title_logo">THE&nbspLOOP</span></span></a>
                </div>
-               <div class="header_order">Order</div>
+               <div class="header_order">
+                  <ul>
+                     <li><a href="#">Оплата</a></li>
+                     <li><a href="#">Доставка</a></li>
+                  </ul>
+               </div>
 
-               <div class="header_curt">Curt</div>
+               <div class="header_cart">
+                  <ul>
+                     <li><a href="#" class="ico_cart"><img src="/template/images/shopping_cart.png" alt="cart"></a></li>
+                     <li><a href="#"><span class="ico_strike">&nbsp&nbsp0</span></a></li>
+                  </ul>
+               </div>
 
             </div>
 
@@ -64,7 +74,32 @@
       </header>
 
       <section class="promo">
-         Promo
+         <div class="container">
+
+            <div class="promo_wrapper">
+
+               <div class="promo_content_left">
+                  <h4>Зимняя распродажа</h4>
+                  <h3>скидки до 90%</h3>
+                  <button class="button_main">смотреть модели</button>
+               </div>
+
+               <div class="promo_content_right">
+                  <a href="#"><img src="/template/images/Sneakers_main.png" alt="sneakers"></a>
+               </div>
+
+            </div>
+
+            <div class="promo_link">
+               <ul>
+                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
+                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
+                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
+                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
+               </ul>
+            </div>
+
+         </div>
       </section>
 
       <section class="free_delivery">
