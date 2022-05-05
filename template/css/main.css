@@ -28,6 +28,15 @@ body {
    margin-top: 40px;
 }
 
+.button_collection {
+   border: 0;
+   background-color: #D7B399;
+   width: 80px;
+   padding: 15px 30px 15px 30px;
+   cursor: pointer;
+   margin-top: 40px;
+}
+
 .header {
    background-color: #fff;
    padding: 60px 0;
@@ -251,9 +260,135 @@ body {
    margin-left: 3vh;
    list-style-type: none;
    position: relative;
-   bottom: 7vw;;
+   bottom: 7vw;
+   right: 1vw;
 } 
 
+.free_delivery {
+   height: 235px;
+}
 
+.free_delivery > .container {
+   height: 100%;
+   background-color: #000;
+}
 
+.free_delivery .free_delivery_wrapper {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.free_delivery h3 {
+   font-family: 'Montserrat';
+   text-transform: uppercase;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 37px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #fff;
+}
+
+.title_delivery_price {
+   font-weight: 100;
+}
+
+.free_delivery p {
+   font-family: 'Montserrat';
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 26px;
+   text-align: center;
+   color: #fff;
+   margin-top: 25px;
+}
+
+.collection {
+   background-color: #fff;
+   height: 250px;
+}
+
+.collection > .container {
+   height: 100%;
+}
+
+.collection .collection_wrapper {
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.collection .title_col {
+   font-weight: 100;
+}
+
+.collection .man_col,
+.woman_col {
+   width: 100%;
+}
+
+.collection .man_col h3,
+.woman_col h3 {
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 30px;
+   letter-spacing: 0.03em;
+   margin-top: 60px;
+}
+
+.collection .man_col p,
+.woman_col p {
+   font-weight: 100;
+   font-size: 16px;
+   line-height: 20px;
+   margin-top: 25px;
+}
+
+.collection .img_col img {
+   position: relative;
+   left: 15vw;
+   bottom: 5.5vw;
+}
+
+.catalog {
+   background-color: #fff;
+   height: 500px;
+}
+
+.catalog > .container {
+   height: 100%;
+}
+
+.catalog .catalog_title h3 {
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 54px;
+   font-weight: normal;
+   margin: 5vh 0 5vh 0;
+}
+
+.catalog .catalog_content ul {
+   width: 100%;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+}
+
+.catalog .catalog_content li {
+   width: 100%;
+}
+
+.catalog .catalog_content a {
+   color: #000;
+   text-decoration: none;
+   text-transform: none;
+   font-weight: 600;
+   font-size: 21px;
+   line-height: 26px;
+   letter-spacing: 0.03em;
+}
 

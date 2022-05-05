@@ -6,8 +6,6 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>LOOP</title>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,
    wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
    300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -103,17 +101,68 @@
       </section>
 
       <section class="free_delivery">
-         Free delivery
+         <div class="container">
+
+            <div class="free_delivery_wrapper">
+
+               <div class="free_delivery_content">
+                  <h3>бесплатная доставка <span class="title_delivery_price">от 200 BYN</span></h3>
+                  <p>Cделайте заказ и получите подарок</p>
+               </div>
+
+            </div>
+
+         </div>
       </section>
 
       <section class="collection">
-         <div class="man_col">Man collection</div>
-         <div class="woman_col">Woman collection</div>
+         <div class="container">
+
+            <div class="collection_wrapper">
+
+               <div class="man_col">
+                  <h3>мужская <span class="title_col">коллекция</span></h3>
+                  <p>Обувь, полуверы, костюмы</p>
+                  <button class="button_collection"><img src="/template/images/Arrow_discount.png" alt="arrow"></button>
+                  <div class="img_col"><img src="/template/images/Man_col.png" alt="man"></div>
+               </div>
+               <div class="woman_col">
+                  <h3>женская <span>коллекция</span></h3>
+                  <p>Обувь, полуверы, костюмы</p>
+                  <button class="button_collection"><img src="/template/images/Arrow_discount.png" alt="arrow"></button>
+                  <div class="img_col"><img src="/template/images/Woman_col.png" alt="man"></div>
+               </div>
+
+            </div>
+
+         </div>
       </section>
 
-      <section class="catalog">
-         catalog
-      </section>
+      <div class="catalog">
+         <div class="container">
+
+            <div class="catalog_title">
+               <h3>каталог</h3>
+            </div>
+
+            <div class="catalog_content">
+               <ul>
+                  <li><a href="#">Платья<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+                  <li><a href="#">Полуверы<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+                  <li><a href="#">Пиджаки<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+                  <li><a href="#">Майки<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+               </ul>
+               <ul>
+                  <li><a href="#">Брюки<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+                  <li><a href="#">Шапки<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+                  <li><a href="#">Туфли<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+                  <li><a href="#">Кроссовки<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
+               </ul>
+            </div>
+
+         </div>
+
+      </div>
 
       <section class="new_models">
          New models
