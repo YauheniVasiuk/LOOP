@@ -141,11 +141,12 @@
       <div class="catalog">
          <div class="container">
 
-            <div class="catalog_title">
-               <h3>каталог</h3>
-            </div>
-
             <div class="catalog_content">
+
+               <div class="catalog_title">
+                  <h3>каталог</h3>
+               </div>
+
                <ul>
                   <li><a href="#">Платья<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
                   <li><a href="#">Полуверы<img src="/template/images/T-short_catalog.png" alt="product"></a></li>
@@ -165,15 +166,81 @@
       </div>
 
       <section class="new_models">
-         New models
+         <div class="container">
+
+            <div class="new_models_content">
+
+               <h3>новые модели</h3>
+               <ul>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
+                     </a>
+                  </li>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
+                     </a>
+                  </li>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
+                     </a>
+                  </li>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
+                     </a>
+                  </li>
+               </ul>
+               <button class="button_models">все модели<img src="/template/images/Arrow_discount.png" alt="arrow"></button>
+            </div>
+
+         </div>
       </section>
 
       <section class="presents">
-         Presents
+         <div class="container">
+
+            <div class="presents_wrapper">
+
+               <div class="presents_content_left">
+                  <h3>получайте подарки бесплатно</h3>
+               </div>
+               <div class="presents_content_right">
+                  <input type="text" class="presents_form" placeholder="Ваш e-mail">
+                  <button class="button_presents">подписаться</button>
+               </div>
+
+            </div>
+
+         </div>
       </section>
 
       <section class="discount">
-         Discount
+         <div class="container">
+
+            <div class="discount_content">
+
+               <h3>скидки 90%</h3>
+               <ul>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="discount_title">Коктельное платье <span class="discount_price">300 BYN</span></div>
+                     </a>
+                  </li>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="discount_title">Коктельное платье <span class="discount_price">300 BYN</span></div>
+                     </a>
+                  </li>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="discount_title">Коктельное платье <span class="discount_price">300 BYN</span></div>
+                     </a>
+                  </li>
+                  <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+                        <div class="discount_title">Коктельное платье <span class="discount_price">300 BYN</span></div>
+                     </a>
+                  </li>
+               </ul>
+               <button class="button_models">все модели<img src="/template/images/Arrow_discount.png" alt="arrow"></button>
+            </div>
+
+         </div>
       </section>
 
       <footer class="footer">
