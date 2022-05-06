@@ -306,7 +306,7 @@ body {
 
 .free_delivery > .container {
    height: 100%;
-   background-color: #000;
+   background-color: #212121;
 }
 
 .free_delivery .free_delivery_wrapper {
@@ -483,13 +483,13 @@ body {
 }
 
 .presents {
-   background-color: #000;
    height: 200px;
 }
 
 .presents > .container, 
 .presents_content {
    height: 100%;
+   background-color: #212121;
 }
 
 .presents .presents_wrapper {
@@ -575,6 +575,106 @@ body {
    letter-spacing: 0.04em;
    font-weight: normal;
    margin: 5vh 0 5vh 0;
+}
+
+.footer a {
+   color: #CBCFD4;
+}
+
+.footer_top {
+   color: #fff;
+}
+
+.footer_top > .container {
+   height: 100%;
+   padding: 80px 0 80px 80px;
+   background-color: #212121;
+}
+
+.footer_top h4 {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 12px;
+   display: flex;
+   align-items: center;
+   text-transform: uppercase;
+   margin-bottom: 3vh;
+}
+
+.footer .footer_logo {
+   display: inline-block;
+   width: 25%;
+   height: 40px;
+   margin-bottom: 5vh;
+}
+
+.footer .footer_logo .ico_logo {
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background-image: url(/template/images/LOGO.png);
+}
+
+.footer .footer_logo .ico_logo a {
+   width: 100%;
+   height: 100%;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.footer .footer_logo .title_logo {
+   display: inline-block;
+   height: 40px;
+   padding-left: 60px;
+   padding-top: 5px;
+   color: #000;
+   font-weight: bold;
+   font-size: 24px;
+   color: #fff;
+}
+
+.footer .footer_item p {
+   width: 50%;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+.footer_list {
+   display: flex;
+}
+
+.footer_item {
+   flex: 1 1;
+}
+
+.footer_item:nth-child(1) {
+   flex: 2;
+}
+
+.footer .footer_links {
+   list-style: none;
+}
+
+.footer .footer_links a {
+   text-decoration: none;
+   text-transform: none;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 36px;
+}
+
+.footer_bot{
+   background-color: #fff;
+   padding: 30px;
+}
+
+.footer_bot_wrapper {
+   display: flex;
+}
+
+.footer_bot_private {
+   margin-left: auto;
 }
 
 
