@@ -10,6 +10,7 @@
    wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
    300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="/template/css/main.css">
+   <link rel="stylesheet" href="/template/css/media.css">
 </head>
 
 <body>
@@ -22,6 +23,10 @@
             <div class="header_wrapper">
 
                <div class="header_nav">
+
+                  <button class="header_nav_toggle"><label for="header_nav_toggle"></label></button>
+
+                  <input type="checkbox" id="header_nav_toggle">
                   <ul>
                      <li><a href="#">Для мужчин<span class="ico_poligon_main"></span></a>
                         <ul>
@@ -45,6 +50,10 @@
                            <li><a href="#">Костюмы</a></li>
                         </ul>
                      </li>
+                     <div class="header_order">
+                        <a href="#">Оплата</a>
+                        <a href="#">Доставка</a>
+                     </div>
                   </ul>
                </div>
 
@@ -254,7 +263,7 @@
                         <a href="#"><span class="ico_logo"><span class="title_logo">THE&nbspLOOP</span></span></a>
                      </div>
 
-                     <p>Интернет-магазин the LOOP наиболее удобный способ покупать мужскую одежду и обувь в Республике Беларусь. </p>
+                     <p>Интернет-магазин the LOOP наиболее удобный способ покупать мужскую и женскую одежду и обувь в Республике Беларусь. </p>
 
                   </div>
 
@@ -262,12 +271,14 @@
 
                      <h4>Основные ссылки</h4>
 
-                     <ul class="footer_links">
-                        <li><a href=" #">О компании</a></li>
-                        <li><a href="#">Каталог</a></li>
-                        <li><a href="#">Доставка</a></li>
-                        <li><a href="#">Оплата</a></li>
-                     </ul>
+                     <div class="main_links">
+                        <ul class="footer_links">
+                           <li><a href=" #">О компании</a></li>
+                           <li><a href="#">Каталог</a></li>
+                           <li><a href="#">Доставка</a></li>
+                           <li><a href="#">Оплата</a></li>
+                        </ul>
+                     </div>
 
                   </div>
                   <div class="footer_item">
@@ -286,11 +297,13 @@
 
                      <h4>ПОЛЕЗНЫЕ ССЫЛКИ</h4>
 
-                     <ul class="footer_links">
-                        <li><a href="#">Таблица размеров</a></li>
-                        <li><a href="#">Блог о моде</a></li>
-                        <li><a href="#">Наша миссия</a></li>
-                     </ul>
+                     <div class="useful_links">
+                        <ul class="footer_links">
+                           <li><a href="#">Таблица размеров</a></li>
+                           <li><a href="#">Блог о моде</a></li>
+                           <li><a href="#">Наша миссия</a></li>
+                        </ul>
+                     </div>
 
                   </div>
                   <div class="footer_item">
@@ -298,9 +311,9 @@
                      <h4>СОЦ СЕТИ</h4>
 
                      <ul class="footer_links">
-                        <li><span class="ico_vk"></span><a href="#">VK.com</a></li>
-                        <li><span class="ico_Facebook"></span><a href="#">Facebook</a></li>
-                        <li><span class="ico_Instagram"></span><a href="#">Instagramm</a></li>
+                        <li><span class="ico ico_vk"></span><a href="#">VK.com</a></li>
+                        <li><span class="ico ico_Facebook"></span><a href="#">Facebook</a></li>
+                        <li><span class="ico ico_Instagram"></span><a href="#">Instagramm</a></li>
                      </ul>
 
                   </div>
@@ -313,9 +326,9 @@
 
                <div class="footer_bot_wrapper">
 
-                  <div class="footer_bot_copyrights">Copyright &copy; 2019. Все права защищены</div>
+                  <div class="footer_bot_copyrights">Copyright &copy; 2022. Все права защищены</div>
 
-                  <div class="footer_bot_private">Политика приватности</div>
+                  <div class="footer_bot_private">Финальный проект Васюк Е.Ю.</div>
 
                </div>
 

@@ -10,7 +10,7 @@ body {
 
 .container {
    width: 80%;
-   max-width: 1280px;
+   max-width: 1440px;
    margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@ body {
    padding: 20px 35px 20px 35px;
    cursor: pointer;
    margin-top: 100px;
-   margin-left: 550px;
+   margin-left: 43%;
 }
 
 .button_models img {
@@ -88,6 +88,32 @@ body {
    width: 30%;
 }
 
+#header_nav_toggle {
+   display: none;
+}
+
+.header .header_nav_toggle {
+   position: relative;
+   display: none;
+   border: 0;
+   background: none;
+}
+
+.header .header_nav_toggle::before {
+   content: 'Меню';
+   font-weight: 600;
+   font-size: 22px;
+}
+
+.header .header_nav_toggle label {
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
 .header .header_nav .ico_poligon_main {
    display: block;
    width: 5px;
@@ -96,10 +122,10 @@ body {
    position: relative;
    left: 90px;
    bottom: 11px;
-
 }
 
 .header .header_nav a {
+   padding-left: 2px;
    color: #000;
    text-decoration: none;
    text-transform: none;
@@ -112,11 +138,16 @@ body {
 }
 
 .header .header_nav a:hover {
+   padding-left: 2px;
    background-color: #D7B399;
    border: 1px solid #000;
    box-shadow: 0 0 10px rgba(0,0,0,0.5);
    border-radius: 3px;
 }
+
+.header .header_nav .header_order {
+   display: none;
+} 
 
 .header .header_nav ul {
    display: flex;
@@ -179,6 +210,7 @@ body {
 }
 
 .header .header_order a {
+   padding: 2px;
    color: #000;
    text-decoration: none;
    text-transform: none;
@@ -189,6 +221,7 @@ body {
 }
 
 .header .header_order a:hover {
+   padding: 2px;
    background-color: #D7B399;
    border: 1px solid #000;
    box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -419,11 +452,13 @@ body {
 }
 
 .catalog .catalog_content a {
+   display: inline-block;
+   width: 100%;
    color: #000;
    text-decoration: none;
    text-transform: none;
    font-weight: 600;
-   font-size: 21px;
+   font-size: 25px;
    line-height: 26px;
    letter-spacing: 0.03em;
 }
@@ -587,7 +622,7 @@ body {
 
 .footer_top > .container {
    height: 100%;
-   padding: 80px 0 80px 80px;
+   padding: 80px 0 80px 0;
    background-color: #212121;
 }
 
@@ -598,14 +633,44 @@ body {
    display: flex;
    align-items: center;
    text-transform: uppercase;
-   margin-bottom: 3vh;
+   margin-bottom: 25px;
+}
+
+.footer_top .ico {
+   display: inline-block;
+   margin-right: 5px;
+}
+
+.footer_top .ico_vk {
+   width: 18px;
+   height: 11px;
+   background-image: url(/template/images/VK_footer.png);
+}
+
+.footer_top .ico_Facebook {
+   width: 14px;
+   height: 15px;
+   background-image: url(/template/images/Facebook_footer.png);
+   margin-right: 9px;
+   position: relative;
+   top: 2px;
+}
+
+.footer_top .ico_Instagram {
+   width: 14px;
+   height: 15px;
+   background-image: url(/template/images/Instagramm_footer.png);
+   margin-right: 9px;
+   position: relative;
+   top: 2px;
 }
 
 .footer .footer_logo {
    display: inline-block;
    width: 25%;
    height: 40px;
-   margin-bottom: 5vh;
+   margin-bottom: 43px;
+   margin-left: 40px;
 }
 
 .footer .footer_logo .ico_logo {
@@ -638,6 +703,7 @@ body {
    font-weight: 400;
    font-size: 16px;
    line-height: 22px;
+   margin-left: 40px;
 }
 
 .footer_list {
@@ -661,7 +727,7 @@ body {
    text-transform: none;
    font-weight: 400;
    font-size: 16px;
-   line-height: 36px;
+   line-height: 42px;
 }
 
 .footer_bot{
@@ -676,6 +742,7 @@ body {
 .footer_bot_private {
    margin-left: auto;
 }
+
 
 
 
