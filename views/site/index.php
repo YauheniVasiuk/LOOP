@@ -90,10 +90,10 @@
 
             <div class="promo_link">
                <ul>
-                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
-                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
-                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
-                  <li><a href="#"><img src="/template/images/Rectangle_main.png" alt="link"></a></li>
+                  <li><a href="#"><img src="/template/images/Rectangle_main_empty.png" alt="link"></a></li>
+                  <li><a href="#"><img src="/template/images/Rectangle_main_empty.png" alt="link"></a></li>
+                  <li><a href="#"><img src="/template/images/Rectangle_main_empty.png" alt="link"></a></li>
+                  <li><a href="#"><img src="/template/images/Rectangle_main_empty.png" alt="link"></a></li>
                </ul>
             </div>
 

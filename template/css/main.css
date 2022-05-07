@@ -50,7 +50,7 @@ body {
    padding: 20px 35px 20px 35px;
    cursor: pointer;
    margin-top: 100px;
-   margin-left: 31vw;
+   margin-left: 550px;
 }
 
 .button_models img {
@@ -94,7 +94,7 @@ body {
    height: 4px;
    background-image: url(/template/images/Polygon_main.png);
    position: relative;
-   left: 4vw;
+   left: 90px;
    bottom: 11px;
 
 }
@@ -244,7 +244,7 @@ body {
 
 .header .header_cart .ico_cart {
    position: relative;
-   top: -1vh;
+   top: -8px;
 }
 
 .promo {
@@ -293,11 +293,11 @@ body {
 }
 
 .promo .promo_link li {
-   margin-left: 3vh;
+   margin-left: 15px;
    list-style-type: none;
    position: relative;
-   bottom: 7vw;
-   right: 1vw;
+   bottom: 100px;
+   right: 5px;
 } 
 
 .free_delivery {
@@ -386,8 +386,8 @@ body {
 
 .collection .img_col img {
    position: relative;
-   left: 15vw;
-   bottom: 5.5vw;
+   left: 400px;
+   bottom: 100px;
 }
 
 .catalog {
@@ -404,7 +404,7 @@ body {
    text-transform: capitalize;
    font-size: 54px;
    font-weight: normal;
-   margin: 5vh 0 5vh 0;
+   margin: 80px 0 50px 25px;
 }
 
 .catalog .catalog_content ul {
@@ -468,7 +468,7 @@ body {
    width: 25%;
    display: flex;
    justify-content: center;
-   margin-left: 12vh;
+   margin-left: 80px;
 }
 
 .new_models .new_models_content h3 {
@@ -479,7 +479,7 @@ body {
    line-height: 44px;
    letter-spacing: 0.04em;
    font-weight: normal;
-   margin: 5vh 0 5vh 0;
+   margin: 50px 0 50px 25px;
 }
 
 .presents {
@@ -563,7 +563,7 @@ body {
    width: 25%;
    display: flex;
    justify-content: center;
-   margin-left: 12vh;
+   margin-left: 80px;
 }
 
 .discount .discount_content h3 {
@@ -574,7 +574,7 @@ body {
    line-height: 44px;
    letter-spacing: 0.04em;
    font-weight: normal;
-   margin: 5vh 0 5vh 0;
+   margin: 50px 0 50px 25px;
 }
 
 .footer a {
