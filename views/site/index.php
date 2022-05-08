@@ -46,7 +46,7 @@
                      <li><a href="#">Для детей<span class="ico_poligon_main"></span></a>
                         <ul>
                            <li><a href="#">Обувь</a></li>
-                           <li><a href="#">Комбинезоны</a></li>
+                           <li><a href="#">Шапки</a></li>
                            <li><a href="#">Костюмы</a></li>
                         </ul>
                      </li>
@@ -136,7 +136,7 @@
                   <div class="img_col"><img src="/template/images/Man_col.png" alt="man"></div>
                </div>
                <div class="woman_col">
-                  <h3>женская <span>коллекция</span></h3>
+                  <h3>женская <span class="title_col">коллекция</span></h3>
                   <p>Обувь, полуверы, костюмы</p>
                   <button class="button_collection"><img src="/template/images/Arrow_discount.png" alt="arrow"></button>
                   <div class="img_col"><img src="/template/images/Woman_col.png" alt="man"></div>
@@ -310,11 +310,13 @@
 
                      <h4>СОЦ СЕТИ</h4>
 
-                     <ul class="footer_links">
-                        <li><span class="ico ico_vk"></span><a href="#">VK.com</a></li>
-                        <li><span class="ico ico_Facebook"></span><a href="#">Facebook</a></li>
-                        <li><span class="ico ico_Instagram"></span><a href="#">Instagramm</a></li>
-                     </ul>
+                     <div class="social_links">
+                        <ul class="footer_links">
+                           <li><span class="ico ico_vk"></span><a href="#">VK.com</a></li>
+                           <li><span class="ico ico_Facebook"></span><a href="#">Facebook</a></li>
+                           <li><span class="ico ico_Instagram"></span><a href="#">Instagramm</a></li>
+                        </ul>
+                     </div>
 
                   </div>
                </div>
