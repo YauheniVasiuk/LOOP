@@ -42,6 +42,10 @@ class Router
 
             $parameters = $segments;
 
+            // var_dump($controllerName);
+            // var_dump($actionName);
+            // die(var_dump($parameters));
+
             // Подключаем файл класса-контроллера
             $controllerFile = ROOT . '/controllers/' . $controllerName . '.php';
 

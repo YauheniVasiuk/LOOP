@@ -4,9 +4,11 @@ return array(
 
    'product/([0-9]+)' => 'product/view/$1', // actionView in ProductController
 
-   'catalog' => 'catalog/index', // actionIndex in CatalogController
+   'catalog_d' => 'catalog/discount', // actionDiscount in CatalogController
+   'catalog_n' => 'catalog/new', // actionNew in CatalogController
+   'catalog/([0-9]+)' => 'catalog/index/$1', // actionIndex in CatalogController
+   'catalog' => 'catalog/catalog', // actionCatalog in CatalogController
    'category/([0-9]+)' => 'catalog/category/$1', // actionCategory in CatalogController
 
    '' => 'site/index', // actionIndex in SiteController
-
 );

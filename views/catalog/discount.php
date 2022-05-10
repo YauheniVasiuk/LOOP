@@ -5,25 +5,12 @@
 
       <div class="catalog_content_cat">
 
-         <div class="catalog_title_cat">
-            <h3>товары для <?php switch ($catalogId) {
-                              case 0:
-                                 echo "мужчин";
-                                 break;
-                              case 1:
-                                 echo "женщин";
-                                 break;
-                              case 2:
-                                 echo "детей";
-                                 break;
-                              case 3:
-                                 echo "животных";
-                                 break;
-                           } ?></h3>
+         <div class="catalog_title_dis">
+            <h3>товары на скидке</h3>
          </div>
 
          <div class="catalog_content_cat_list_wrapper">
-            <?php foreach ($catalogProducts as $product) : ?>
+            <?php foreach ($discountProducts as $product) : ?>
                <div class="catalog_content_cat_list">
                   <a href="<?php echo $product['id']; ?>">
                   <?php if ($product['is_new'] == 1) : ?>
@@ -33,7 +20,7 @@
                      <?php endif; ?>
                   <img src="<?php echo $product['image']; ?>" alt="product"></a>
                   <div class="catalog_content_cat_price">
-                     Цена :<?php echo $product['price'] ?>Br
+                     Цена :<?php echo $product['price'] ?>Br <span class="catalog_content_dis"> - <?php echo $product['discount_price']; ?>%</span>
                   </div>
                   <div class="catalog_content_cat_name">
                      <?php echo $product['name'] ?>
