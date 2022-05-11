@@ -38,6 +38,11 @@
                   </div>
                </div>
             <?php endforeach; ?>
+
+         </div>
+
+         <div class="pagination">
+            <?php echo $pagination->get(); ?>
          </div>
 
       </div>

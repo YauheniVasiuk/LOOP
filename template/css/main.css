@@ -82,6 +82,25 @@ body {
    text-align: center;
 }
 
+.pagination {
+   display: flex;
+   justify-content: center;
+   margin: 1%;
+   list-style: none;
+}
+
+.pagination a {
+   text-decoration: none;
+   color: #D7B399;
+   font-size: 20px;
+   letter-spacing: 20px;
+
+}
+
+.pagination .active {
+   font-weight: bold;
+}
+
 .header {
    background-color: #fff;
    padding: 60px 0;
@@ -150,13 +169,13 @@ body {
    padding-left: 2px;
    background-color: #D7B399;
    border: 1px solid #000;
-   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    border-radius: 3px;
 }
 
 .header .header_nav .header_order {
    display: none;
-} 
+}
 
 .header .header_nav ul {
    display: flex;
@@ -169,11 +188,11 @@ body {
    width: 100%;
 }
 
-.header .header_nav li > ul {
+.header .header_nav li>ul {
    display: none;
 }
 
-.header .header_nav li:hover > ul {
+.header .header_nav li:hover>ul {
    display: block;
    position: absolute;
    width: 100%;
@@ -233,7 +252,7 @@ body {
    padding: 2px;
    background-color: #D7B399;
    border: 1px solid #000;
-   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    border-radius: 3px;
 }
 
@@ -294,7 +313,7 @@ body {
    height: 660px;
 }
 
-.promo > .container {
+.promo>.container {
    height: 100%;
 }
 
@@ -340,13 +359,13 @@ body {
    position: relative;
    bottom: 100px;
    right: 5px;
-} 
+}
 
 .free_delivery {
    height: 235px;
 }
 
-.free_delivery > .container {
+.free_delivery>.container {
    height: 100%;
    background-color: #212121;
 }
@@ -389,7 +408,7 @@ body {
    height: 250px;
 }
 
-.collection > .container {
+.collection>.container {
    height: 100%;
 }
 
@@ -437,7 +456,7 @@ body {
    height: 650px;
 }
 
-.catalog > .container {
+.catalog>.container {
    height: 100%;
 }
 
@@ -477,7 +496,7 @@ body {
    height: 650px;
 }
 
-.new_models > .container {
+.new_models>.container {
    height: 100%;
 }
 
@@ -530,7 +549,7 @@ body {
    height: 200px;
 }
 
-.presents > .container, 
+.presents>.container,
 .presents_content {
    height: 100%;
    background-color: #212121;
@@ -572,7 +591,7 @@ body {
    height: 700px;
 }
 
-.discount > .container {
+.discount>.container {
    height: 100%;
 }
 
@@ -629,7 +648,7 @@ body {
    color: #fff;
 }
 
-.footer_top > .container {
+.footer_top>.container {
    height: 100%;
    padding: 80px 0 80px 0;
    background-color: #212121;
@@ -739,7 +758,7 @@ body {
    line-height: 42px;
 }
 
-.footer_bot{
+.footer_bot {
    background-color: #fff;
    padding: 30px;
 }
@@ -751,10 +770,3 @@ body {
 .footer_bot_private {
    margin-left: auto;
 }
-
-
-
-
-
-
-

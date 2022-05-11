@@ -117,7 +117,7 @@ class product
       return $productsNew;
    }
 
-   public static function getProductsListByCategory($categoryId = false)
+   public static function getProductsListByCategory($categoryId = false, $page)
    {
       // Проверяем наличие категории
       if ($categoryId) {
@@ -125,8 +125,9 @@ class product
          // Подключение к БД
          $db = Db::getConnection();
          $products = array();
+         $offset = ($page - 1) * self::SHOW_BY_DEFAULT;
          // Запрос в БД
-         $result = $db->query('SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = "' . $categoryId . '" ORDER BY id DESC LIMIT ' . self::SHOW_BY_DEFAULT);
+         $result = $db->query('SELECT id, name, price, image, is_new FROM product WHERE status = "1" AND category_id = "' . $categoryId . '" ORDER BY id DESC LIMIT ' . self::SHOW_BY_DEFAULT . ' OFFSET ' . $offset);
 
          // Обработка результата запроса
          $i = 0;
@@ -163,5 +164,17 @@ class product
          // Возврат результата
          return $result->fetch();
       }
+   }
+
+   public static function getTotalProductsInCategory($categoryId)
+   {
+      $db = Db::getConnection();
+
+      $result = $db->query('SELECT count(id) AS count FROM product WHERE status = "1" AND category_id = "' . $categoryId . '"');
+      $result->setFetchMode(PDO::FETCH_ASSOC);
+
+      $row = $result->fetch();
+
+      return $row['count'];
    }
 }

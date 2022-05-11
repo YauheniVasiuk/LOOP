@@ -14,6 +14,7 @@
    <link rel="stylesheet" href="/template/css/main_dis.css">
    <link rel="stylesheet" href="/template/css/main_catalog.css">
    <link rel="stylesheet" href="/template/css/main_category.css">
+   <link rel="stylesheet" href="/template/css/main_register.css">
    <link rel="stylesheet" href="/template/css/media.css">
 </head>
 

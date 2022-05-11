@@ -1,8 +1,5 @@
 <?php
 
-include_once ROOT . '/models/Category.php';
-include_once ROOT . '/models/Product.php';
-
 class CatalogController
 {
 
@@ -34,19 +31,21 @@ class CatalogController
       return true;
    }
 
-   public function actionCategory($categoryId)
+   public function actionCategory($categoryId, $page = 1)
    {
       // подтягиваем категории
       $categories = array();
       $categories = Category::getCategoriesList();
 
-      // die(var_dump($categories));
-
       // Подтягиваем товары по категории
       $categoryProducts = array();
-      $categoryProducts = Product::getProductsListByCategory($categoryId);
+      $categoryProducts = Product::getProductsListByCategory($categoryId, $page);
 
-      // die(var_dump($categoryProducts));
+      // находим общее кол-во записей 
+      $total = Product::getTotalProductsInCategory($categoryId);
+
+      // Создаем объект класса Pagination (постраничная навигация)
+      $pagination = new Pagination($total, $page, Product::SHOW_BY_DEFAULT, 'page-');
 
       // подключаем визуализацию страницы
       require_once(ROOT . '/views/catalog/category.php');
