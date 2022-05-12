@@ -15,6 +15,7 @@
    <link rel="stylesheet" href="/template/css/main_catalog.css">
    <link rel="stylesheet" href="/template/css/main_category.css">
    <link rel="stylesheet" href="/template/css/main_register.css">
+   <link rel="stylesheet" href="/template/css/main_cabinet.css">
    <link rel="stylesheet" href="/template/css/media.css">
 </head>
 
@@ -56,8 +57,14 @@
                         </ul>
                      </li>
                      <div class="header_order">
-                        <a href="#">Оплата</a>
-                        <a href="#">Доставка</a>
+                        <a href="/payment/">Оплата</a>
+                        <a href="/delivery/">Доставка</a>
+                        <?php if (User::isGuest()) : ?>
+                           <li><a href="/user/login/">Вход</a></li>
+                        <?php else : ?>
+                           <li><a href="/cabinet/">Aккаунт</a></li>
+                           <li><a href="/user/logout/">Выход</a></li>
+                        <?php endif; ?>
                      </div>
                   </ul>
                </div>
@@ -67,8 +74,14 @@
                </div>
                <div class="header_order">
                   <ul>
-                     <li><a href="#">Оплата</a></li>
-                     <li><a href="#">Доставка</a></li>
+                     <li><a href="/payment/">Оплата</a></li>
+                     <li><a href="/delivery/">Доставка</a></li>
+                     <?php if (User::isGuest()) : ?>
+                        <li><a href="/user/login/">Вход</a></li>
+                     <?php else : ?>
+                        <li><a href="/cabinet/">Aккаунт</a></li>
+                        <li><a href="/user/logout/">Выход</a></li>
+                     <?php endif; ?>
                   </ul>
                </div>
 
