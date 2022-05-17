@@ -1,0 +1,41 @@
+.catalog .catalog_content_register {
+   width: 100%;
+   display: inline-block;
+}
+
+.catalog .catalog_title_cart {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.catalog .catalog_title_cart h3 {
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 2%;
+   text-transform: capitalize;
+}
+
+.catalog_title_cart p {
+   margin-bottom: 2%;
+}
+
+.catalog .catalog_content_cart p {
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.catalog .catalog_content_cart {
+   width: 100%;
+   text-align: left;
+   margin-top: 2%;
+}
+
+.cart_table a {
+   text-decoration: none;
+   color: #000;
+}
+
+.cart_table th div {
+   text-align: left;
+}

@@ -26,6 +26,13 @@
                   <div class="catalog_content_cat_name">
                      <?php echo $product['name'] ?> <span class="catalog_content_dis">new</span>
                   </div>
+                  <div class="catalog_content_cat_cart">
+                     <button class="button_cart">
+                        <a href="/cart/add/<?php echo $product['id']; ?>" class="add-to-cart" data-id="<?php echo $product['id']; ?>">
+                           <div class="ico_cart_button">в корзину</div>
+                        </a>
+                     </button>
+                  </div>
                </div>
             <?php endforeach; ?>
          </div>

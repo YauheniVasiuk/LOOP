@@ -37,6 +37,15 @@ class User
       return false;
    }
 
+   // Проверяет номер телефона
+   public static function checkPhone($phone)
+   {
+      if (strlen($phone) >= 10) {
+         return true;
+      }
+      return false;
+   }
+
    // Проверяет email
    public static function checkEmail($email)
    {

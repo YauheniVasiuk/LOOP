@@ -84,6 +84,22 @@
    </div>
 </footer>
 
+<script>
+   // Выполняется только при полной загрузке документа
+   $(document).ready(function() {
+      // По клику на кнопку с классом "add-to-cart" выпоняется call-back функция
+      $(".add-to-cart").click(function() {
+         // Создаем переменную id и помещаем в нее значение из data-id с использованием jquery(возможностей) $(this)
+         var id = $(this).attr("data-id");
+         // Выполняем post-запрос с помощью jquery. Устанавливаем путь(адресс запроса), параметры(пустые), call-back функция с данными от выполнения запроса
+         $.post("/cart/addAjax/" + id, {}, function(data) {
+            // Устанавливаем в поле с id="cart-count" значение полученное из запроса с помощью jquery .html(data)
+            $("#cart-count").html(data);
+         });
+         return false;
+      });
+   });
+</script>
 </div>
 
 </body>

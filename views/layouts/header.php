@@ -16,7 +16,11 @@
    <link rel="stylesheet" href="/template/css/main_category.css">
    <link rel="stylesheet" href="/template/css/main_register.css">
    <link rel="stylesheet" href="/template/css/main_cabinet.css">
+   <link rel="stylesheet" href="/template/css/main_cart.css">
+   <link rel="stylesheet" href="/template/css/main_order.css">
+   <link rel="stylesheet" href="/template/css/main_issue.css">
    <link rel="stylesheet" href="/template/css/media.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -87,8 +91,8 @@
 
                <div class="header_cart">
                   <ul>
-                     <li><a href="#" class="ico_cart"><img src="/template/images/shopping_cart.png" alt="cart"></a></li>
-                     <li><a href="#"><span class="ico_strike">&nbsp&nbsp0</span></a></li>
+                     <li><a href="/cart/" class="ico_cart"><img src="/template/images/shopping_cart.png" alt="cart"></a></li>
+                     <li><a href="/cart/"><span class="ico_strike"> &nbsp;&nbsp;<span id="cart-count"><?php echo Cart::countItems(); ?></span></span></a></li>
                   </ul>
                </div>
 
