@@ -27,16 +27,17 @@
          <div class="catalog_content_issue">
             <p>Для оформления заказа заполните форму. Наш менеджер свяжется с Вами.</p>
             <!--Показываем Форму-->
-            <form action="#" method="post" class="catalog_content_issue_input">
-               <p>Ваше имя</p>
-               <input type="text" name="userName" placeholder="Имя" value="<?php echo $userName; ?>" />
-               <p>Ваш номер телефона</p>
-               <input type="text" name="userPhone" placeholder="Номер" value="<?php echo $userPhone; ?>" />
-               <p>Комментарий к заказу</p>
-               <input type="text" name="userComment" placeholder="Сообщение" value="<?php echo $userComment; ?>" />
-
-               <br />
-               <input type="submit" name="submit" class="reg" value="Оформить" />
+            <div class="issue_content">
+               <form action="#" method="post" class="catalog_content_issue_input">
+                  <p>Ваше имя:</p>
+                  <input type="text" name="userName" placeholder="Имя" value="<?php echo $userName; ?>" />
+                  <p>Ваш номер телефона:</p>
+                  <input type="text" name="userPhone" placeholder="Номер" value="<?php echo $userPhone; ?>" />
+                  <p>Комментарий к заказу:</p>
+                  <input type="text" name="userComment" placeholder="Сообщение" value="<?php echo $userComment; ?>" />
+                  <br />
+                  <input type="submit" name="submit" class="reg" value="Оформить" />
+            </div>
             </form>
          </div>
 

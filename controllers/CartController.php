@@ -147,4 +147,13 @@ class CartController
 
       return true;
    }
+
+   public function actionDelete($id)
+   {
+      // Удаляем товар из корзины
+      Cart::deleteProduct($id);
+
+      // Возвращаем пользователя на страницу корзины товаров
+      header("Location: /cart");
+   }
 }

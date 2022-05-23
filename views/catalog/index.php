@@ -26,7 +26,7 @@
             <div class="catalog_content_cat_list_wrapper">
                <?php foreach ($catalogProducts as $product) : ?>
                   <div class="catalog_content_cat_list">
-                     <a href="<?php echo $product['id']; ?>">
+                     <a href="/product/<?php echo $product['id']; ?>">
                         <?php if ($product['is_new'] == 1) : ?>
                            <div class="new">
                               <img src="/template/images/new.png" alt="new">

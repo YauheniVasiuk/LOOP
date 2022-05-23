@@ -16,6 +16,10 @@
    margin-bottom: 1%;
 }
 
+.catalog .issue_content p {
+   font-weight: bold;
+}
+
 .catalog .catalog_content_issue input {
    width: 300px;
    height: 30px;
@@ -34,7 +38,7 @@
 
 .catalog .catalog_content_issue .reg {
    width: 310px;
-   height: 40px;
+   height: 60px;
    font-weight: normal;
    font-size: 20px;
 }

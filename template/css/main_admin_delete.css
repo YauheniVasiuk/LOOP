@@ -1,0 +1,25 @@
+.button_delete {
+   border: 0;
+   background-color: #fff;
+   width: 160px;
+   padding: 10px 25px 10px 15px;
+   cursor: pointer;
+   margin-top: 10px;
+   border-radius: 5px;
+   font-size: 22px;
+}
+
+.button_delete:hover {
+   background-color: #D7B399;
+   color: #fff;
+}
+
+.catalog_admin p {
+   text-align: center;
+}
+
+.catalog_admin .admin_delete {
+   display: flex;
+   justify-content: center;
+   margin: 2%;
+}

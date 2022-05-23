@@ -19,6 +19,7 @@
    <link rel="stylesheet" href="/template/css/main_cart.css">
    <link rel="stylesheet" href="/template/css/main_order.css">
    <link rel="stylesheet" href="/template/css/main_issue.css">
+   <link rel="stylesheet" href="/template/css/main_admin.css">
    <link rel="stylesheet" href="/template/css/media.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>

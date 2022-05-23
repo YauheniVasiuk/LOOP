@@ -1,0 +1,53 @@
+.catalog_admin {
+   height: 100%;
+}
+
+.catalog_admin .admin_panel {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.catalog_admin .admin_panel ol a {
+   text-decoration: none;
+   color: #000;
+}
+
+.catalog_admin .admin_panel ol a:hover {
+   text-decoration: underline;
+}
+
+.catalog_admin .admin_panel ol li {
+   list-style: inside;
+   margin-top: 2%;
+}
+
+.catalog_admin h3 {
+   text-align: center;
+   margin: 3%;
+}
+
+.catalog_admin a {
+   text-decoration: none;
+   color: #000;
+}
+
+.catalog_admin .add_product {
+   text-decoration: none;
+   color: #000;
+   font-size: 20px;
+   padding: 10px;
+}
+
+.catalog_admin .add_product:hover {
+   padding: 10px;
+   border-radius: 3px;
+   cursor: pointer;
+   color: #fff;
+   background-color: #D7B399;
+}
+
+.cart_table .update {
+   background-image: url(/template/images/update_product.png);
+   background-size: contain;
+}
