@@ -1,6 +1,8 @@
 .catalog .catalog_content_catalog {
    position: relative;
-   bottom: 70px;
+   bottom: 40px;
 }
 
-
+.catalog .catalog_content_catalog .catalog_content ul {
+   margin: 2%;
+}

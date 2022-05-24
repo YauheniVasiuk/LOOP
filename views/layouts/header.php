@@ -20,6 +20,7 @@
    <link rel="stylesheet" href="/template/css/main_order.css">
    <link rel="stylesheet" href="/template/css/main_issue.css">
    <link rel="stylesheet" href="/template/css/main_admin.css">
+   <link rel="stylesheet" href="/template/css/main_product.css">
    <link rel="stylesheet" href="/template/css/media.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
@@ -41,24 +42,24 @@
                   <ul>
                      <li><a href="/catalog/0">Для мужчин<span class="ico_poligon_main"></span></a>
                         <ul>
-                           <li><a href="#">Обувь</a></li>
-                           <li><a href="#">Полуверы</a></li>
-                           <li><a href="#">Костюмы</a></li>
+                           <li><a href="/category/7">Обувь</a></li>
+                           <li><a href="/category/2">Полуверы</a></li>
+                           <li><a href="/category/3">Костюмы</a></li>
                         </ul>
                      </li>
                      <li>
                         <a href="/catalog/1">Для женщин<span class="ico_poligon_main"></span></a>
                         <ul>
-                           <li><a href="#">Обувь</a></li>
-                           <li><a href="#">Полуверы</a></li>
-                           <li><a href="#">Костюмы</a></li>
+                           <li><a href="/category/7">Обувь</a></li>
+                           <li><a href="/category/2">Полуверы</a></li>
+                           <li><a href="/category/3">Костюмы</a></li>
                         </ul>
                      </li>
                      <li><a href="/catalog/2">Для детей<span class="ico_poligon_main"></span></a>
                         <ul>
-                           <li><a href="#">Обувь</a></li>
-                           <li><a href="#">Шапки</a></li>
-                           <li><a href="#">Костюмы</a></li>
+                           <li><a href="/category/7">Обувь</a></li>
+                           <li><a href="/category/2">Шапки</a></li>
+                           <li><a href="/category/3">Костюмы</a></li>
                         </ul>
                      </li>
                      <div class="header_order">
@@ -75,7 +76,7 @@
                </div>
 
                <div class="header_logo">
-                  <a href="/"><span class="ico_logo"><span class="title_logo">THE&nbspLOOP</span></span></a>
+                  <a href="/admin/"><span class="ico_logo"><span class="title_logo">THE&nbspLOOP</span></span></a>
                </div>
                <div class="header_order">
                   <ul>

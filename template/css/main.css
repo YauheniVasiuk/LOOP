@@ -544,7 +544,7 @@ body {
 
 .catalog .catalog_content a {
    display: inline-block;
-   width: 100%;
+   width: 50%;
    color: #000;
    text-decoration: none;
    text-transform: none;
@@ -552,6 +552,15 @@ body {
    font-size: 25px;
    line-height: 26px;
    letter-spacing: 0.03em;
+}
+
+.catalog .catalog_content img {
+   position: relative;
+   left: 50px;
+}
+
+.catalog .catalog_content ul {
+   margin: 2%;
 }
 
 .new_models {

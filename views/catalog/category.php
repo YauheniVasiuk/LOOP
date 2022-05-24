@@ -29,7 +29,11 @@
                               <img src="/template/images/new.png" alt="new">
                            </div>
                         <?php endif; ?>
-                        <img src="<?php echo $product['image']; ?>" alt="product">
+                        <?php if ($product['image'] == 'image') : ?>
+                           <img src="<?php echo Product::getImage($product['id']); ?>" alt="product" />
+                        <?php else : ?>
+                           <img src="<?php echo $product['image']; ?>" alt="product" />
+                        <?php endif; ?>
                      </a>
                      <div class="catalog_content_cat_price">
                         Цена :<?php echo $product['price'] ?>Br

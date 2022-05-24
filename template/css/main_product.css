@@ -1,0 +1,49 @@
+.catalog_product .catalog_content_product {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3%;
+   margin-bottom: 5%;
+}
+
+.catalog_product p {
+   margin: 1%;
+}
+
+.view-product {
+   width: 50%;
+
+}
+
+.view-product .new {
+   width: 0px;
+   height: 0px;
+   transform: scale(0.3);
+   position: relative;
+   bottom: 28vh;
+   left: 18vw;
+}
+
+.view-product img {
+   margin-left: 60%;
+}
+
+.product-information {
+   width: 50%;
+   margin-left: 10%;
+}
+
+.product-information button {
+   margin: 1%;
+}
+
+.product-information button a {
+   font-size: 18px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #000;
+}
+
+.product-information button a:hover {
+   color: #fff;
+}
