@@ -63,6 +63,11 @@
    animation: rotate-button 0.2s forwards;
 }
 
+.catalog_content_register .button_main {
+   width: 305px;
+   border-radius: 5px;
+}
+
 @keyframes rotate-button {
    from {
       font-size: 21px;

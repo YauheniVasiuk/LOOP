@@ -6,7 +6,7 @@
             <div class="footer_item">
 
                <div class="footer_logo">
-                  <a href="#"><span class="ico_logo"><span class="title_logo">THE&nbspLOOP</span></span></a>
+                  <a href="/"><span class="ico_logo"><span class="title_logo">THE&nbspLOOP</span></span></a>
                </div>
 
                <p>Интернет-магазин the LOOP наиболее удобный способ покупать мужскую и женскую одежду и обувь в Республике Беларусь. </p>
@@ -45,9 +45,9 @@
 
                <div class="useful_links">
                   <ul class="footer_links">
-                     <li><a href="/size/">Таблица размеров</a></li>
-                     <li><a href="/fashion/">Блог о моде</a></li>
-                     <li><a href="/mission/">Наша миссия</a></li>
+                     <li><a href="#">Таблица размеров</a></li>
+                     <li><a href="#">Блог о моде</a></li>
+                     <li><a href="#">Наша миссия</a></li>
                   </ul>
                </div>
 
@@ -58,9 +58,9 @@
 
                <div class="social_links">
                   <ul class="footer_links">
-                     <li><span class="ico ico_vk"></span><a href="/vk/">VK.com</a></li>
-                     <li><span class="ico ico_Facebook"></span><a href="/facebook/">Facebook</a></li>
-                     <li><span class="ico ico_Instagram"></span><a href="/instagram/">Instagram</a></li>
+                     <li><span class="ico ico_vk"></span><a href="#">VK.com</a></li>
+                     <li><span class="ico ico_Facebook"></span><a href="#">Facebook</a></li>
+                     <li><span class="ico ico_Instagram"></span><a href="#">Instagram</a></li>
                   </ul>
                </div>
 

@@ -19,6 +19,31 @@ class SiteController
       return true;
    }
 
+   public function actionDelivery()
+   {
+      // Подключаем визуализацию страницы
+      require_once(ROOT . '/views/site/delivery.php');
+
+      return true;
+   }
+
+   public function actionAbout()
+   {
+      // Подключаем визуализацию страницы
+      require_once(ROOT . '/views/site/about.php');
+
+      return true;
+   }
+
+   public function actionPayment()
+   {
+      // Подключаем визуализацию страницы
+      require_once(ROOT . '/views/site/payment.php');
+
+      return true;
+   }
+
+
    public function actionContact()
    {
 

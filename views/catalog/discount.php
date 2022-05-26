@@ -20,7 +20,11 @@
                               <img src="/template/images/new.png" alt="new">
                            </div>
                         <?php endif; ?>
-                        <img src="<?php echo $product['image']; ?>" alt="product">
+                        <?php if ($product['image'] == 'image') : ?>
+                           <img src="<?php echo Product::getImage($product['id']); ?>" alt="product" />
+                        <?php else : ?>
+                           <img src="<?php echo $product['image']; ?>" alt="product" />
+                        <?php endif; ?>
                      </a>
                      <div class="catalog_content_cat_price">
                         Цена :<?php echo $product['price'] ?>Br <span class="catalog_content_dis"> - <?php echo $product['discount_price']; ?>%</span>
@@ -29,7 +33,7 @@
                         <?php echo $product['name'] ?>
                      </div>
                      <div class="catalog_content_cat_cart">
-                     <button class="button_cart">
+                        <button class="button_cart">
                            <a href="/cart/add/<?php echo $product['id']; ?>" class="add-to-cart" data-id="<?php echo $product['id']; ?>">
                               <div class="ico_cart_button">в корзину</div>
                            </a>

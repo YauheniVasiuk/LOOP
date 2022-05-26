@@ -8,13 +8,15 @@ class User
       // Подключение к БД
       $db = Db::getConnection();
 
+      $hashPas = password_hash($password, PASSWORD_DEFAULT);
+
       $sql = 'INSERT INTO user (name, email, password) VALUES (:name, :email, :password)';
 
       // Подготовленный запрос
       $result = $db->prepare($sql);
       $result->bindParam(':name', $name, PDO::PARAM_STR);
       $result->bindParam(':email', $email, PDO::PARAM_STR);
-      $result->bindParam(':password', $password, PDO::PARAM_STR);
+      $result->bindParam(':password', $hashPas, PDO::PARAM_STR);
 
       return $result->execute();
    }
@@ -82,17 +84,29 @@ class User
       // Подключение к БД
       $db = Db::getConnection();
 
-      $sql = 'SELECT * FROM user WHERE email = :email AND password = :password';
-
-      // Подготовленный запрос
+      $sql = 'SELECT password FROM user WHERE email = :email';
       $result = $db->prepare($sql);
       $result->bindParam(':email', $email, PDO::PARAM_INT);
-      $result->bindParam(':password', $password, PDO::PARAM_INT);
       $result->execute();
+      $result->setFetchMode(PDO::FETCH_ASSOC);
 
-      $user = $result->fetch();
-      if ($user) {
-         return $user['id'];
+      $hash = $result->fetch();
+
+      $verify = password_verify($password, $hash['password']);
+
+      if ($verify) {
+         $sql = 'SELECT * FROM user WHERE email = :email AND password = :password';
+
+         // Подготовленный запрос
+         $result = $db->prepare($sql);
+         $result->bindParam(':email', $email, PDO::PARAM_INT);
+         $result->bindParam(':password', $hash['password'], PDO::PARAM_INT);
+         $result->execute();
+
+         $user = $result->fetch();
+         if ($user) {
+            return $user['id'];
+         }
       }
 
       return false;

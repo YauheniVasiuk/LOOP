@@ -15,7 +15,7 @@
          <!--Показываем ссылки на редактирование и список-->
          <ul>
             <li class="reg"><a href="/cabinet/edit/">Редактировать данные</a></li>
-            <li class="reg"><a href="#">Список покупок</a></li>
+            <li class="reg"><a href="/cart/">Список покупок</a></li>
          </ul>
 
       </div>

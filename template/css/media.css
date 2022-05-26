@@ -1,3 +1,11 @@
+@media (max-width: 1540px) {
+
+   .header .header_logo {
+      position: relative;
+      right: 5%;
+   }
+}
+
 @media (max-width: 1280px) {
 
    .button_models {
@@ -6,6 +14,28 @@
 
    .header .header_nav .ico_poligon_main {
       left: 85px;
+   }
+
+   .header .header_logo {
+      width: 30%;
+   }
+
+   .header .header_logo {
+      right: 7%;
+   }
+
+
+   .header .header_order {
+      width: 25%;
+   }
+
+   .header .header_order li a {
+      font-size: 12px;
+   }
+
+
+   .header .header_cart {
+      width: 10%;
    }
 
    .collection .img_col img {
@@ -18,6 +48,10 @@
 
    .catalog .catalog_content a {
       font-size: 15px;
+   }
+
+   .catalog_cat .catalog_title_category a {
+      font-size: 20px;
    }
 
    .new_models .new_models_content li {
@@ -75,6 +109,22 @@
 
    .footer .footer_item p {
       width: 70%;
+   }
+
+}
+
+@media (max-width: 1100px) {
+
+   .header .header_logo {
+      right: 10%;
+   }
+
+   .catalog_cat .catalog_title_category a {
+      font-size: 18px;
+   }
+
+   .catalog_content_cabinet_image {
+      transform: scale(0.8);
    }
 
 }
@@ -209,6 +259,23 @@
       left: -50px;
    }
 
+   .catalog_content_cat_list {
+      transform: scale(0.8);
+   }
+
+   .catalog .catalog_title_cabinet h3 {
+      font-size: 26px;
+   }
+
+   .catalog .catalog_title_cabinet_name h3 {
+      font-size: 22px;
+      margin-bottom: 5%;
+   }
+
+   .catalog_cat .catalog_title_category a {
+      font-size: 14px;
+   }
+
    .new_models .new_models_content ul,
    .discount .discount_content ul {
       width: 105%;
@@ -332,10 +399,6 @@
       left: 140px;
    }
 
-   .catalog {
-      height: 350px;
-   }
-
    .catalog .catalog_title h3 {
       font-size: 30px;
       margin: 45px 0 20px 25px;
@@ -356,6 +419,32 @@
       position: relative;
       right: 50px;
       top: -50px;
+   }
+
+   .catalog {
+      height: 520px;
+   }
+
+   .catalog_content_cat {
+      position: relative;
+      bottom: 20vh;
+   }
+
+   .catalog_content_cat_list_wrapper {
+      position: relative;
+      bottom: 30vh;
+   }
+
+   .catalog_cat .catalog_title_category a {
+      font-size: 11px;
+   }
+
+   .catalog .catalog_title_register h3 {
+      font-size: 18px;
+   }
+
+   .catalog .catalog_content_issue p {
+      font-size: 14px;
    }
 
    .new_models {
@@ -478,6 +567,25 @@
       right: 50px;
    }
 
+   .catalog_content_cat_list {
+      transform: scale(0.6);
+   }
+
+   .catalog_content_admin_image {
+      transform: scale(0.8);
+      position: relative;
+      bottom: 10vh;
+   }
+
+   .catalog_content_cabinet_image {
+      position: relative;
+      bottom: 10vh;
+   }
+
+   .catalog .catalog_title_cabinet_name h3 {
+      margin-bottom: 7%;
+   }
+
    .footer .footer_item p {
       font-size: 11px;
       margin-left: 40px;
@@ -487,6 +595,77 @@
       position: relative;
       bottom: 12px;
    }
+
+}
+
+@media (max-width: 640px) {
+
+   .catalog_cat .catalog_title_category a {
+      font-size: 9px;
+   }
+
+   .catalog {
+      height: 550px;
+   }
+
+   .catalog_content_cat {
+      position: relative;
+      bottom: 20vh;
+   }
+
+   .catalog_content_cat_list_wrapper {
+      position: relative;
+      bottom: 30vh;
+   }
+
+
+}
+
+@media (max-width: 480px) {
+
+   .catalog_cat .catalog_title_category a {
+      font-size: 6px;
+   }
+
+   .catalog {
+      height: 570px;
+   }
+
+   .catalog_content_cat {
+      position: relative;
+      bottom: 20vh;
+   }
+
+   .catalog_content_cat_list_wrapper {
+      position: relative;
+      bottom: 30vh;
+   }
+
+   .catalog_content_cat_list {
+      transform: scale(0.4);
+   }
+
+   .catalog_content_cabinet_image {
+      bottom: 30vh;
+   }
+
+   .catalog .catalog_title_cabinet h3 {
+      font-size: 20px;
+   }
+
+   .catalog .catalog_title_cabinet_name h3 {
+      font-size: 16px;
+      margin-bottom: 15%;
+   }
+
+   .catalog .catalog_title_register h3 {
+      font-size: 14px;
+   }
+
+   .catalog .catalog_content_issue p {
+      font-size: 10px;
+   }
+
 
 }
 
@@ -622,6 +801,27 @@
       top: -50px;
    }
 
+   .catalog_content_cat_list {
+      transform: scale(0.4);
+   }
+
+   .catalog_cat .catalog_title_category a {
+      font-size: 5px;
+   }
+
+   .catalog_content_cabinet_image {
+      bottom: 30vh;
+      transform: scale(0.6);
+   }
+
+   .catalog .catalog_title_register h3 {
+      font-size: 12px;
+   }
+
+   .catalog .catalog_content_issue p {
+      font-size: 8px;
+   }
+
    .new_models {
       height: 300px;
    }
@@ -636,8 +836,22 @@
       bottom: 70px;
    }
 
-   .new_models .new_models_content li {
-      transform: scale(0.4);
+   .catalog {
+      height: 580px;
+   }
+
+   .catalog_content_cat {
+      position: relative;
+      bottom: 20vh;
+   }
+
+   .catalog_content_cat_list_wrapper {
+      position: relative;
+      bottom: 30vh;
+   }
+
+   .catalog_content_cat_list {
+      transform: scale(0.3);
    }
 
    .presents {

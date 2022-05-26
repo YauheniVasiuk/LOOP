@@ -12,7 +12,7 @@
          </div>
 
          <div class="promo_content_right">
-            <a href="#"><img src="/template/images/Sneakers_main.png" alt="sneakers"></a>
+            <a href="/catalog_d/"><img src="/template/images/Sneakers_main.png" alt="sneakers"></a>
          </div>
 
       </div>
@@ -101,19 +101,19 @@
 
          <h3>новые модели</h3>
          <ul>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/28"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
                </a>
             </li>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/26"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
                </a>
             </li>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/30"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
                </a>
             </li>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/24"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="new_models_title">Коктельное платье <span class="new_models_price">300 BYN</span></div>
                </a>
             </li>
@@ -149,19 +149,19 @@
 
          <h3>скидки 90%</h3>
          <ul>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/30"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="discount_title">Коктельное платье <span class="discount_price">30 BYN</span></div>
                </a>
             </li>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/29"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="discount_title">Коктельное платье <span class="discount_price">30 BYN</span></div>
                </a>
             </li>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/28"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="discount_title">Коктельное платье <span class="discount_price">30 BYN</span></div>
                </a>
             </li>
-            <li><a href="#"><img src="/template/images/Woman_discount.png" alt="woman">
+            <li><a href="product/27"><img src="/template/images/Woman_discount.png" alt="woman">
                   <div class="discount_title">Коктельное платье <span class="discount_price">30 BYN</span></div>
                </a>
             </li>
