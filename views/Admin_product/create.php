@@ -6,7 +6,7 @@
       <div class="admin_panel">
          <ol>
             <li><a href="/admin/">Админпанель</a></li>
-            <li><a href="/order/">Управление товарами</a></li>
+            <li><a href="/admin/product/">Управление товарами</a></li>
             <li class="active">Добавить товар</li>
          </ol>
       </div>
