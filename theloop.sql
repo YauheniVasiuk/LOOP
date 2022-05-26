@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 26 2022 г., 23:14
+-- Время создания: Май 26 2022 г., 23:38
 -- Версия сервера: 8.0.24
 -- Версия PHP: 7.4.27
 
@@ -150,7 +150,7 @@ CREATE TABLE `user` (
   `name` text NOT NULL,
   `email` text NOT NULL,
   `password` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `role` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'user'
+  `role` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'admin'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
@@ -158,10 +158,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `password`, `role`) VALUES
-(1, 'Евгений СУПЕР разраб', 'ddd@ddd.dd', '123456', 'admin'),
-(2, 'Evgen', 'fff@fff.ff', '123456', 'user'),
-(3, 'evgen', 'jyujk@fffl.rt', '123456', 'user'),
-(4, 'evgen', '12123@sdcsdc.rttr', '$2y$10$Dnom4gHTHYOmgQ8ZicDv5ejbKpds306C7HpGgzqNQt4xLtD9DiCA2', 'user');
+(4, 'Евгений СУПЕР разраб', '12123@sdcsdc.rttr', '$2y$10$Dnom4gHTHYOmgQ8ZicDv5ejbKpds306C7HpGgzqNQt4xLtD9DiCA2', 'admin');
 
 --
 -- Индексы сохранённых таблиц
